@@ -21,7 +21,6 @@ export const committees: Committee[] = [
     topic: "Crises humanitárias e segurança coletiva",
     description:
       "Negociação de resoluções em cenários de tensão internacional e mediação de conflitos.",
-    language: "Português",
     capacity: 28,
     reservedSeats: 6,
     confirmedSeats: 20,
@@ -35,7 +34,6 @@ export const committees: Committee[] = [
     topic: "Migrações, clima e cooperação multilateral",
     description:
       "Discussão ampla sobre deslocamentos humanos, direitos sociais e governança climática.",
-    language: "Português",
     capacity: 40,
     reservedSeats: 5,
     confirmedSeats: 22,
@@ -49,7 +47,6 @@ export const committees: Committee[] = [
     topic: "Cobertura, checagem e comunicação diplomática",
     description:
       "Produção de boletins, entrevistas e cobertura crítica das sessões do evento.",
-    language: "Português",
     capacity: 18,
     reservedSeats: 2,
     confirmedSeats: 16,

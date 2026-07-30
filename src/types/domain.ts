@@ -26,7 +26,6 @@ export type Committee = {
   name: string;
   topic: string;
   description: string;
-  language: string;
   capacity: number;
   reservedSeats: number;
   confirmedSeats: number;

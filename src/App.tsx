@@ -558,7 +558,6 @@ function CommitteeCard({ committee, onChoose }: { committee: Committee; onChoose
     <article className={`committee-card accent-${committee.accent}`}>
       <div className="committee-topline">
         <span>{committee.acronym}</span>
-        <small>{committee.language}</small>
       </div>
       <h3>{committee.name}</h3>
       <p className="committee-topic">Tema: {committee.topic}</p>

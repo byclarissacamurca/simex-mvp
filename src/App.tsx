@@ -176,10 +176,13 @@ export function App() {
     <>
       <header className="site-header">
         <a className="brand" href="#inicio" aria-label="Ir para o início">
-          <span className="brand-mark">S</span>
+          <span className="brand-mark">
+            <strong>DOM</strong>
+            <strong>BOSCO</strong>
+          </span>
           <span>
-            <strong>simexonu</strong>
-            <small>Simulação Exponencial</small>
+            <strong>SIMEX ONU</strong>
+            <small>Dom Bosco Exponencial</small>
           </span>
         </a>
 
@@ -202,7 +205,7 @@ export function App() {
       <main>
         <section id="inicio" className="hero section-band">
           <div className="hero-copy">
-            <p className="eyebrow">Colégio Dom Bosco apresenta</p>
+            <p className="eyebrow">Dom Bosco Exponencial IB World School</p>
             <h1>{eventConfig.longName}</h1>
             <p className="hero-text">{eventConfig.subtitle}</p>
             <div className="hero-actions">
@@ -216,9 +219,19 @@ export function App() {
           </div>
 
           <div className="hero-panel" aria-label="Informações rápidas do evento">
-            <div className="seal">
-              <Landmark size={56} />
-              <span>ONU</span>
+            <div className="hero-visual">
+              <div className="visual-photo" aria-hidden="true">
+                <span className="student-dot one" />
+                <span className="student-dot two" />
+                <span className="student-dot three" />
+                <span className="desk-line" />
+              </div>
+              <div className="seal">
+                <Landmark size={42} />
+                <span>ONU</span>
+              </div>
+              <strong>SIMEX 2026</strong>
+              <small>Educação que desenvolve pessoas.</small>
             </div>
             <InfoTile icon={<CalendarDays size={18} />} label="Data" value={eventConfig.date} />
             <InfoTile icon={<Landmark size={18} />} label="Local" value={eventConfig.location} />

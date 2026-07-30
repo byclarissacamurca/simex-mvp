@@ -8,7 +8,6 @@ export const committees: Committee[] = [
     topic: "Tecnologia, juventudes e direitos fundamentais",
     description:
       "Debate sobre proteção de dados, liberdade de expressão e acesso seguro à tecnologia.",
-    language: "Português",
     capacity: 32,
     reservedSeats: 4,
     confirmedSeats: 18,

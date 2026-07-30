@@ -44,8 +44,8 @@ export const committees: Committee[] = [
     accent: "magenta",
   },
   {
-    id: "looks",
-    acronym: "LOOKS",
+    id: "cgc",
+    acronym: "CGC",
     name: "Comitê de Imprensa",
     topic: "Cobertura, checagem e comunicação diplomática",
     description:
